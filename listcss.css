@@ -1,0 +1,124 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(181, 174, 174, 0.676);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(22, 6, 29);
+
+}
+
+.main-cls {
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background-image: url('backimag.jpg');
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    color: #251111ce;
+    transform: translate(-50%, -50%);
+}
+
+#nexttask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#nexttask input {
+    width: 85%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+.hlo {
+    font-size: 100px;
+}
+
+#nexttask input ::placeholder {
+    font-size: x-large;
+}
+
+#nexttask input:focus {
+    outline: none;
+    border-color: aliceblue;
+}
+
+#nexttask button {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #eb4a5f;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    width: 10%;
+    height: 45px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: whitesmoke;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    display: flex;
+    color: black;
+
+}
+
+.task span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #eb4a5f;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    height: 80%;
+    width: 12%;
+    border-radius: 50px;
+}
